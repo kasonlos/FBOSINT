@@ -1,4 +1,4 @@
-module github.com/0x3c62723e/FBOSINT
+module github.com/kasonlos/FBOSINT
 
 go 1.17
 
