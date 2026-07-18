@@ -59,7 +59,7 @@ func main() {
 		Worker(requester, wg)
 	}(NewRequester(Input, NewRequest(&http.Client{
 		Jar:     NewCookieJar(),
-		Timeout: time.Duration(time.Second * 10),
+		Timeout: time.Duration(time.Second * 50),
 	})), &wg)
 
 	wg.Wait()
