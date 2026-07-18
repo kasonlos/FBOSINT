@@ -33,7 +33,7 @@ func init() {
 	pterm.DefaultCenter.Print(str)
 
 	pterm.DefaultCenter.WithCenterEachLineSeparately().Printf(
-		fmt.Sprintf("Developed by %v - (%v)\n%s[%s]%s", pterm.LightRed(devlopedByStyle("Clay Revillosa")), pterm.Green(devlopedByStyle("0x3c62723e")), pterm.Yellow("contact"), pterm.Cyan("at"), pterm.Yellow("0x3c62723e.neocities.org")))
+		fmt.Sprintf("Developed by %v - (%v)\n%s[%s]%s", pterm.LightRed(devlopedByStyle("Clay Revillosa")), pterm.Green(devlopedByStyle("0x3c62723e")), pterm.Yellow("contact"), pterm.Cyan("at"), pterm.Yellow("0x3c62723e.neocities.org"), "updated by kasonlos"))
 
 	pterm.DefaultCenter.WithCenterEachLineSeparately().Printf("-----------------\n")
 
