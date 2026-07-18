@@ -29,7 +29,7 @@ FBOSINT checks if an {id, username, phonenumber, email} is associated with a fac
 ---
 # Installation
 ```
-go install github.com/0x3c62723e/FBOSINT@latest
+go install github.com/kasonlos/FBOSINT@latest
 ```
 ---
 
